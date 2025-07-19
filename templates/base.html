@@ -3,6 +3,17 @@
 <head>
     <title>{% block title %}My Personal Site{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-29TE7R5JQD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-29TE7R5JQD');
+</script>
+    
 </head>
 <body>
     <nav>
